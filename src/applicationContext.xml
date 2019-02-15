@@ -12,7 +12,8 @@
     <!--将B配置到配置文件中-->
     <bean name="B" class="com.gongjun.bean.B">
         <!--ref表示要将bean A注入-->
-        <property name="a" ref="A"></property>
+        <property name="a" ref="A">
 
+        </property>
     </bean>
 </beans>

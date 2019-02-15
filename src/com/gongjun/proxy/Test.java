@@ -1,8 +1,5 @@
-package com.gongjun.proxy.test;
+package com.gongjun.proxy;
 
-import com.gongjun.proxy.DataInvocationHandler;
-import com.gongjun.proxy.DataServiceImpl;
-import com.gongjun.proxy.IDataService;
 import sun.misc.ProxyGenerator;
 
 import java.io.FileOutputStream;
@@ -32,8 +29,11 @@ public class Test {
         System.out.println("--------------------------------------------------------------------------");
 
         IDataService newService = new DataServiceImpl();
-
+        //调用save方法
         newService.save(null);
+        //调用update方法
+        System.out.println("---------------------------------------------------------------------------");
+        service.update(null);
 
         createProxyClass();
 
