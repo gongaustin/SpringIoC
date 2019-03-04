@@ -1,1 +1,9 @@
 JDK动态代理自理
+1.实现InvocationHandler类，复写invoke方法
+2.事务前方法
+3.method.invoke(service,args)
+4.事务后方法
+名词总结
+AOP IOC
+AOP 面向切面编程
+IOC 控制反转
