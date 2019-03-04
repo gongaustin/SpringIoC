@@ -1,7 +1,7 @@
 package com.gongjun.bean;
 /*手写IOC框架*/
 /**
- * @Description:
+ * @Description: A的实体类
  * @Author:GongJun
  * @Date:2019/2/14
  */
