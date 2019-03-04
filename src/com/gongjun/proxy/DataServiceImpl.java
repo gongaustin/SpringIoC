@@ -1,7 +1,7 @@
 package com.gongjun.proxy;
 
 /** 修改关闭，扩展开放
- * @Description:被代理接口的实现类
+ * @Description:被代理接口的实现类（业务层）
  * @Author:GongJun
  * @Date:2019/2/15
  */
